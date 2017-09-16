@@ -17,6 +17,7 @@ public class JavaApplication9
      */
     public static void main(String[] args)
     {
+        System.out.println("Hello my first commit");
         // TODO code application logic here
     }
     
