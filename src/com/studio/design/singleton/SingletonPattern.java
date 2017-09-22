@@ -9,7 +9,7 @@ import java.util.Date;
 
 /**
  *
- * @author Naveen
+ * @author 
  */
 public class SingletonPattern
 {
