@@ -5,6 +5,9 @@
  */
 package javaapplication9;
 
+import com.studio.design.singleton.SingletonPattern;
+import java.util.Date;
+
 /**
  *
  * @author Naveen
@@ -12,13 +15,18 @@ package javaapplication9;
 public class JavaApplication9
 {
 
+    private static void singletonPattern()
+    {
+        SingletonPattern pattern = SingletonPattern.Instance();
+        System.out.println(new Date() + " " + pattern);
+    }
+
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args)
     {
-        System.out.println("Hello my first commit");
-        // TODO code application logic here
+        singletonPattern();
     }
-    
+
 }
